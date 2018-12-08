@@ -38,7 +38,7 @@ ENV PATH /opt/conda/bin:$PATH
 
 RUN pip install scipy imageio pyyaml pyssim joblib easydict docopt tqdm pyyaml \
                       Pillow scikit-image opencv-python pytube \
-                      numpy==1.15.1
+                      numpy==1.15.1 keras==2.2.0
 
 RUN conda install -c menpo ffmpeg=3.1.3
 
